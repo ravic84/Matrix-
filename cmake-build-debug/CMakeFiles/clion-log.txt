@@ -1,0 +1,26 @@
+/snap/clion/209/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/snap/clion/209/bin/ninja/linux/ninja -G Ninja -S /media/sf_D_DRIVE/Linux/linux/rgr-rumeone-main -B /media/sf_D_DRIVE/Linux/linux/rgr-rumeone-main/cmake-build-debug
+[0/8] Performing download step (git clone) for 'googletest-populate'
+Клонирование в «googletest-src»...
+fatal: detected dubious ownership in repository at '/media/sf_D_DRIVE/Linux/linux/rgr-rumeone-main/cmake-build-debug/_deps/googletest-src'
+To add an exception for this directory, call:
+
+	git config --global --add safe.directory /media/sf_D_DRIVE/Linux/linux/rgr-rumeone-main/cmake-build-debug/_deps/googletest-src
+CMake Error at /media/sf_D_DRIVE/Linux/linux/rgr-rumeone-main/cmake-build-debug/external/gtest/tmp/googletest-populate-gitclone.cmake:49 (message):
+  Failed to checkout tag: 'release-1.11.0'
+
+
+FAILED: /media/sf_D_DRIVE/Linux/linux/rgr-rumeone-main/cmake-build-debug/external/gtest/src/googletest-populate-stamp/googletest-populate-download 
+cd /media/sf_D_DRIVE/Linux/linux/rgr-rumeone-main/cmake-build-debug/_deps && /snap/clion/209/bin/cmake/linux/bin/cmake -P /media/sf_D_DRIVE/Linux/linux/rgr-rumeone-main/cmake-build-debug/external/gtest/tmp/googletest-populate-gitclone.cmake && /snap/clion/209/bin/cmake/linux/bin/cmake -E touch /media/sf_D_DRIVE/Linux/linux/rgr-rumeone-main/cmake-build-debug/external/gtest/src/googletest-populate-stamp/googletest-populate-download
+ninja: build stopped: subcommand failed.
+
+CMake Error at /snap/clion/209/bin/cmake/linux/share/cmake-3.23/Modules/FetchContent.cmake:1088 (message):
+  Build step for googletest failed: 1
+Call Stack (most recent call first):
+  /snap/clion/209/bin/cmake/linux/share/cmake-3.23/Modules/FetchContent.cmake:1217:EVAL:2 (__FetchContent_directPopulate)
+  /snap/clion/209/bin/cmake/linux/share/cmake-3.23/Modules/FetchContent.cmake:1217 (cmake_language)
+  /snap/clion/209/bin/cmake/linux/share/cmake-3.23/Modules/FetchContent.cmake:1260 (FetchContent_Populate)
+  external/gtest/CMakeLists.txt:11 (FetchContent_MakeAvailable)
+
+
+-- Configuring incomplete, errors occurred!
+See also "/media/sf_D_DRIVE/Linux/linux/rgr-rumeone-main/cmake-build-debug/CMakeFiles/CMakeOutput.log".
