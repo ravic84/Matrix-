@@ -1,3 +1,0 @@
-/media/sf_D_DRIVE/Linux/linux/rgr-rumeone-main/build/Debug/_deps/googletest-subbuild/CMakeFiles/googletest-populate.dir
-/media/sf_D_DRIVE/Linux/linux/rgr-rumeone-main/build/Debug/_deps/googletest-subbuild/CMakeFiles/edit_cache.dir
-/media/sf_D_DRIVE/Linux/linux/rgr-rumeone-main/build/Debug/_deps/googletest-subbuild/CMakeFiles/rebuild_cache.dir
